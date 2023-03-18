@@ -1,0 +1,85 @@
+@import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
+
+:root {
+    /* Primary colors */
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+
+    /* Secondary colors */
+    --White: hsl(0, 0%, 100%);
+    --Very_light_grayish_blue: hsl(210, 60%, 98%);
+    --Light_grayish_blue_1: hsl(211, 68%, 94%);
+    --Light_grayish_blue_2: hsl(205, 33%, 90%);
+    --Grayish_blue: hsl(219, 14%, 63%);
+    --Dark_grayish_blue: hsl(219, 12%, 42%);
+    --Very_dark_blue: hsl(224, 21%, 14%);
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Light_grayish_blue_2);
+}
+
+.notification-box {
+    width: 750px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */ 
+    border-radius: 20px;
+    background: var(--White);
+}
+
+.notification-title-area {
+    height: 50px;
+    width: 680px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+h6 {
+    padding-right: 10px;
+    font-weight: 900;
+}
+
+.rectangle-3 {
+    height: 20px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Blue);
+    color: var(--White);
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.notification-title-area > p {
+    font-size: 12px;
+    padding-left: 435px;
+    color: var(--Dark_grayish_blue);
+    margin-top: 4px;
+}
