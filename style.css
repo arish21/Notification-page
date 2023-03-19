@@ -34,7 +34,7 @@ html{
 
 body {
     font-size: 1.8rem;
-    color: var(--body-background-color);
+    color: var(--Light_grayish_blue_1);
 }
 
 .main {
@@ -44,11 +44,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--body-background-color);
+    background-color: var(--Light_grayish_blue_1);
 }
 
 .notification-box {
-    height: 850px;
+    height: 600px;
     width: 650px;
     display: flex;
     /* justify-content: center; */
@@ -128,6 +128,19 @@ h6 {
     color: var(--bold-secondary-highlighted-text-color);
     font-weight: 900;
 }
+.boldness3 {
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: 900;
+    color: var(--bold-text-color);
+    cursor: pointer;
+}
+
+.boldness3:hover {
+    cursor: pointer;
+    color: var(--bold-secondary-highlighted-text-color);
+    font-weight: 900;
+}
 
 .lightness {
     padding-left: 5px;
@@ -191,6 +204,18 @@ img {
 
 /* -------------------------------- Notification alert 3 -------------------------------- */
 
+
+.notification-3 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 16px;
+    border-radius: 5px;
+    background: var(--Light_grayish_blue_1);
+    margin-top: 8px; 
+}
 .boldness-group3 {
     color: var(--Blue);
     font-size: 14px;
@@ -202,4 +227,83 @@ img {
 .boldness-group3:hover {
     cursor: pointer;
     color: var(--bold-secondary-highlighted-text-color);
+}
+
+.notification-4 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 16px;
+    border-radius: 5px;
+    background: var(--White);
+    margin-top: 8px; 
+
+}
+
+.message {
+    color: var(--Grayish_blue);
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+}
+
+.message:hover {
+    background: var(--Light_grayish_blue_1);
+    cursor: pointer;
+    color: var(--Grayish_blue);
+    border: none;
+}
+
+.notification-5 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 16px;
+    border-radius: 5px;
+    background: var(--White);
+    margin-top: 75px;
+
+}
+
+.post-picture {
+    margin-left: 195px;
+    cursor: pointer;
+}
+
+.notification-6 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 16px;
+    border-radius: 5px;
+    background: var(--White);
+    margin-top: 8px; 
+}
+
+.notification-text-area-line-2 {
+    display: flex;
+    width: 550px;
+    text-overflow: clip;
+}
+
+.notification-7 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 16px;
+    border-radius: 5px;
+    background: var(--White);
+    margin-top: 20px;
 }
