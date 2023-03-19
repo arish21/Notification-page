@@ -1,40 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./style.css">
-  <title>Frontend Mentor | Notifications page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Notifications page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  <main class="main">
-    <div class="notification-box">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="notification-box">
         <div class="notification-title-area">
-          <h6>Notifications</h6><span class="rectangle-3">3</span>
+          <h6>Notifications</h6>
+          <span class="rectangle-3">3</span>
           <p>Mark all as read</p>
         </div>
         <div class="notification-1">
-          <img src="./assets/images/avatar-mark-webber.webp" alt="Mark Webber" class="image-size">
+          <img
+            src="./assets/images/avatar-mark-webber.webp"
+            alt="Mark Webber"
+          />
           <div class="notification-text-area-1">
             <div class="notification-text-area-line-1">
-              <p><b>Mark Webber</b> reacted to your recent post <b class="text-bold">My first tournament today!</b></p>
+              <p class="boldness">Mark Webber</p>
+              <p class="lightness">reacted to your recent post</p>
+              <p class="boldness-group"><b>My first tournament today!</b></p>
+              <div class="dot"></div>
             </div>
-            <h1 class="notification-time">1m ago</h1>   
+            <h1 class="notification-time">1m ago</h1>
           </div>
         </div>
-    </div>
-  </main>
+        <div class="notification-2">
+          <img
+            src="./assets/images/avatar-angela-gray.webp"
+            alt="Angela Gray"
+          />
+          <div class="notification-text-area-1">
+            <div class="notification-text-area-line-1">
+              <p class="boldness">Angela Gray</p>
+              <p class="lightness">followed you</p>
+              <div class="dot"></div>
+            </div>
+            <h1 class="notification-time">5m ago</h1>
+          </div>
+        </div>
+        <div class="notification-2">
+          <img
+            src="./assets/images/avatar-jacob-thompson.webp"
+            alt="Jacob"
+          />
+          <div class="notification-text-area-1">
+            <div class="notification-text-area-line-1">
+              <p class="boldness">Jacob Thompson</p>
+              <p class="lightness">has joined your group</p>
+              <p class="boldness-group3">Chess Club</p>
+              <div class="dot"></div>
+            </div>
+            <h1 class="notification-time">1 day ago</h1>
+          </div>
+        </div>
+        
 
-  <!-- Notifications 3
+      </div>
+    </main>
+
+    <!-- Notifications 3
 
   Mark all as read
 
@@ -60,10 +108,12 @@
 
   Anna Kim left the group Chess Club
   2 weeks ago -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
