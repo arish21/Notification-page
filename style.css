@@ -28,6 +28,7 @@ html{
 
 body {
     font-size: 1.8rem;
+    color: var(--Dark_grayish_blue);
 }
 
 .main {
@@ -41,18 +42,19 @@ body {
 }
 
 .notification-box {
-    width: 750px;
     height: 850px;
+    width: 650px;
     display: flex;
-    justify-content: center;
-    /* align-items: center; */ 
+    /* justify-content: center; */
+    align-items: center; 
     border-radius: 20px;
     background: var(--White);
+    flex-direction: column;
 }
 
 .notification-title-area {
     height: 50px;
-    width: 680px;
+    width: 600px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -72,14 +74,60 @@ h6 {
     align-items: center;
     background-color: var(--Blue);
     color: var(--White);
-    padding: 5px 15px 5px 15px;
+    padding: 5px 14px 5px 14px;
     border-radius: 4px;
     font-size: 15px;
 }
 
 .notification-title-area > p {
     font-size: 12px;
-    padding-left: 435px;
+    padding-left: 359px;
     color: var(--Dark_grayish_blue);
     margin-top: 4px;
+    cursor: pointer;
 }
+
+.notification-1 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 16px;
+    border-radius: 5px;
+    background: var(--Light_grayish_blue_1); 
+}
+
+.notification-text-area-line-1 > p {
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+}
+
+.text-bold {
+    color: var(--Grayish_blue);
+}
+
+.notification-time {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--Grayish_blue);
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
